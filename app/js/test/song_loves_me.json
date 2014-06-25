@@ -1,0 +1,26 @@
+{
+    "title": "Jesus Loves Me",
+    "defaultBackground": "",
+    "pages": [
+        {
+            "title": "Verse 1",
+            "background": "img/blackCross.jpeg",
+            "lines": [
+                "Jesus loves me this I know",
+                "For the Bible tells me so",
+                "Little ones to Him belong",
+                "they are weak, but He is strong"
+            ]
+        },
+        {
+            "title": "Chorus",
+            "background": "img/blackCurly.jpg",
+            "lines": [
+                "Yes, Jesus loves me",
+                "Yes, Jesus loves me",
+                "Yes, Jesus loves me",
+                "The Bible tells me so"
+            ]
+        }
+    ]
+}

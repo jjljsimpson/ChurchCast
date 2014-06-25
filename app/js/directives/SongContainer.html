@@ -1,0 +1,7 @@
+<div class="songSlide" ng-style="{'background-image': 'url('+song.pages[page].background+ ')'}">
+    <div class="songWords">
+        <div class="songBlock">
+            <div class="songLine" ng-repeat="lineString in song.pages[page].lines track by $index">{{lineString}}</div>
+        </div>
+    </div>
+</div>

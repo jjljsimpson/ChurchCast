@@ -1,0 +1,10 @@
+{
+    "title":"Playlist with three songs",
+    "currentSong":0,
+    "currentPage":1,
+    "songs": [
+        "js/test/song_fake.json",
+        "js/test/song_loves_me.json",
+        "js/test/song_never_ends.json"
+    ]
+}

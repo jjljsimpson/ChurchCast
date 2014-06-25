@@ -1,0 +1,23 @@
+This shows the list of songs<br />
+<span>Title:</span><span>&nbsp; {{$parent.globals.playlist.title}}</span><br />
+<span>Number of Songs:</span><span>&nbsp; {{pages()}}</span><br />
+<span>Current Song:</span><span>&nbsp; {{currentSong()}} </span><br />
+<span>Current Page:</span><span>&nbsp; {{currentPage()}} </span><br />
+
+<p>
+    <button ng-click="moveSongBackward()">Move song backward</button>&nbsp;&nbsp;&nbsp;&nbsp;
+    <button ng-click="moveSongForward()">Move song forward</button>&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+<p>
+    <button ng-click="movePageBackward()">Move page backward</button>&nbsp;&nbsp;&nbsp;&nbsp;
+    <button ng-click="movePageForward()">Move page forward</button>&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+
+<p>
+    <button ng-click="loadPlaylist()">Load Playlist</button>&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+<p>
+    <button ng-click="addFakeSong()">Add Fake Song</button>&nbsp;&nbsp;&nbsp;&nbsp;
+    <button ng-click="addLoveSong()">Add Love Song</button>&nbsp;&nbsp;&nbsp;&nbsp;
+    <button ng-click="addNeverSong()">Add Never Song</button>&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
