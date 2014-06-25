@@ -1,0 +1,40 @@
+{
+    "title": "Six words long",
+    "defaultBackground": "img/blackCross.jpeg",
+    "pages": [
+        {
+            "title": "Verse 1",
+            "background": "",
+            "lines": [
+                "I don't know the words to this song",
+                "I can't remember them at all",
+                "They weren't that important",
+                "so, using fake lyrics is all right",
+                "line 5",
+                "line 6",
+                "line 7",
+                "line 8"
+            ]
+        },
+        {
+            "title": "Chorus",
+            "background": "img/blackCorners.jpeg",
+            "lines": [
+                "This song is just six words long",
+                "Hmm, I can't count",
+                "I think that is seven words",
+                "I need to rework the lyrics"
+            ]
+        },
+        {
+            "title": "Chorus1",
+            "background": "",
+            "lines": [
+                "This song's just six words long",
+                "That is better",
+                "This time only six words",
+                "if a contraction counts as one word"
+            ]
+        }
+    ]
+}

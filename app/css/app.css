@@ -1,0 +1,81 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+
+/* Outer element which holds all the slide UI */
+.songSlide {
+    border: 1px solid #3C3C3C;
+    background-color: #000000;
+
+    width: 100vw;
+    height: 56.25vw; /* 100/56.25 = 1.778 */
+    max-height: 100vh;
+    max-width: 177.78vh; /* 16/9 = 1.778 */
+    margin: auto;
+    position: absolute;
+    top:0;bottom:0; /* vertical center */
+    left:0;right:0; /* horizontal center */
+
+    background-size: 100% auto;
+    display: table;
+    /*display:inline-block;*/
+}
+
+/* inner element which hold all the words */
+.songWords {
+/*    width: 50%; */
+    margin: 0 auto;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFFFFF;
+
+    display: table-cell;
+    vertical-align: middle;
+
+    text-align: center;
+
+/*    display: table-cell;
+    vertical-align: middle;
+*/
+}
+
+.songBlock {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FF00FF;
+    display: inline-block;
+
+    text-align: left;
+}
+
+.songLine {
+    color: #FFFFFF;
+    font-size: 10vh;
+}
